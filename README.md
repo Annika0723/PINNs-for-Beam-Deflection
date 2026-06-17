@@ -1,0 +1,1 @@
+# PINNs-for-Beam-Deflection
