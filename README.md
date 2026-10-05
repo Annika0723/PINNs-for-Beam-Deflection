@@ -112,6 +112,11 @@ PINNs-for-Beam-Deflection/
 Forward mechanics
     ↓
 Inverse parameter identification
+'''
+pip install torch numpy matplotlib jupyter
+1. 簡支梁1_Beam_Deflection_PINN.ipynb
+2. 正反問題.ipynb
+3. DEM.ipynb
     ↓      
 2D continuum mechanics
     ↓
