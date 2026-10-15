@@ -33,25 +33,25 @@ The forward cantilever model achieved a **0.0038% tip-deflection error** relativ
 
 The forward problem is extended to an inverse problem:
 
-\[
+$$
 \text{sparse displacement measurements}
 \rightarrow
 \text{Young's modulus } E.
-\]
+$$
 
 Young's modulus is treated as a trainable physical parameter and optimized jointly with the displacement field using governing physics and noisy synthetic measurements.
 
 The model identified
 
-\[
+$$
 E_{\mathrm{PINN}} = 209.58~\mathrm{GPa},
-\]
+$$
 
 compared with the true value
 
-\[
+$$
 E_{\mathrm{true}} = 210.00~\mathrm{GPa}.
-\]
+$$
 
 This demonstrates the potential of physics-informed learning for parameter identification and structural-condition inference from limited observations.
 
@@ -61,17 +61,17 @@ The project further extends from one-dimensional beam theory to a **two-dimensio
 
 Instead of minimizing a pointwise PDE residual, DEM minimizes the total potential energy
 
-\[
+$$
 \Pi = U-W,
-\]
+$$
 
 where \(U\) is the internal strain energy and \(W\) is the external work.
 
 A neural network approximates the two-dimensional displacement field
 
-\[
+$$
 \mathbf{u}(x,y)=[u_x,u_y].
-\]
+$$
 
 The fixed boundary condition is enforced through a trial-function ansatz, and the DEM prediction is compared with Euler–Bernoulli and Timoshenko beam solutions.
 
