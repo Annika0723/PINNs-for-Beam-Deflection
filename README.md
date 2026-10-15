@@ -114,10 +114,10 @@ Deep Energy Method
 ```text
 PINNs-for-Beam-Deflection/
 │
-├── 簡支梁1_Beam_Deflection_PINN.ipynb
+├── Simply Supported Beam.ipynb
 │   └── Simply supported beam PINN
 │
-├── 正反問題.ipynb
+├── Forward and Inverse Problem.ipynb
 │   ├── Cantilever forward problem
 │   └── Inverse identification of Young's modulus
 │
@@ -144,8 +144,8 @@ pip install torch numpy matplotlib jupyter
 Recommended execution order:
 
 ```text
-1. 簡支梁1_Beam_Deflection_PINN.ipynb
-2. 正反問題.ipynb
+1. Simply Supported Beam.ipynb
+2. Forward and Inverse Problem.ipynb
 3. DEM.ipynb
 ```
 
