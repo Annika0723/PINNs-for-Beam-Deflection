@@ -21,9 +21,9 @@ Two beam problems are considered:
 
 For the cantilever beam, the Euler–Bernoulli governing equation is
 
-\[
+$$
 EI\frac{d^4w}{dx^4}=q,
-\]
+$$
 
 with fixed-end and free-end boundary conditions incorporated into the physics-informed formulation.
 
