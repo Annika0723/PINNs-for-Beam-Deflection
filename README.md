@@ -2,7 +2,11 @@
 
 ## Abstract
 
-In Spring 2026 (my junior year), I realized that AI could teach me almost all of my structural mechanics homework, which briefly made me feel a bit redundant. That realization led me to ask myself: how can I actively apply AI in civil engineering instead? As a Civil Engineering major with a minor in Computer Science, I decided to combine machine learning with structural mechanics.
+In Spring 2026, while studying structural mechanics, I became curious about moving beyond conventional forward problems: rather than only predicting structural deformation from known loads and material properties, could we use observed structural responses to infer unknown material properties and potentially detect structural degradation?
+
+My coursework in digital electronics also inspired me to consider how sensors, such as piezoelectric devices, could provide measurements for structural health monitoring. Meanwhile, I began exploring how AI could be applied to engineering problems while respecting the underlying physical principles, particularly when observational data are limited.
+
+As a Civil Engineering major pursuing a minor in Computer Science, these questions motivated me to independently explore Physics-Informed Neural Networks (PINNs), bringing together machine learning, computational mechanics, and my interest in solving real-world engineering problems.
 
 I explored **Physics-Informed Neural Networks (PINNs)** for computational solid mechanics through beam-deformation problems. Instead of relying only on labeled data, the neural networks are constrained by governing equations, boundary conditions, and energy principles from structural mechanics.
 
